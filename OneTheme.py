@@ -33,7 +33,7 @@ def insertDB(content):
     cursor = connection.cursor()
     # 这里是判断big_list的长度，不是content字符的长度
     try:
-        cursor.executemany('insert into R_Finance (title,links) values (%s,%s)', content)
+        cursor.executemany('insert into R_Graphics (title,links) values (%s,%s)', content)
         connection.commit()
         connection.close()
         print('向MySQL中添加数据成功！')
@@ -45,13 +45,13 @@ def insertDB(content):
 if __name__ == "__main__":
     big_list = []
 
-    url = "https://cloud.r-project.org/web/views/Finance.html"
+    url = "https://cloud.r-project.org/web/views/Graphics.html"
     html = get_one_page(url)
     cont = parse_page(html)
     insertDB(cont)
 
 #
-# create table R_Finance(
+# create table R_Graphics(
 # id int not null primary key auto_increment,
 # title text,
 # links text

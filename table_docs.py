@@ -141,7 +141,7 @@ def parse_one_page(html):
 def getFile(url):
     response = requests.get(url)
     if response.status_code == 200:
-        with open("/home/lk/Documents/R_Finance/%s .pdf"  %url.split("/")[-1][0:-4], "wb") as f:  # 切片之后优化了命名
+        with open("/home/lk/Documents/R_Graphics/%s .pdf"  %url.split("/")[-1][0:-4], "wb") as f:  # 切片之后优化了命名
             f.write(response.content)
             f.close()
     else:
@@ -149,7 +149,7 @@ def getFile(url):
 
 
 if __name__ == "__main__":
-    url = 'https://cloud.r-project.org/web/views/Finance.html'
+    url = 'https://cloud.r-project.org/web/views/Graphics.html'
     html = get_one_page(url)
     link = parse_one_page(html)
     for i in link:

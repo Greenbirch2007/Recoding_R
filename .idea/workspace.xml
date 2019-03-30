@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba1d24a0-90fa-48a5-bda2-0e719d0c5ff9" name="Default Changelist" comment="" />
+    <list default="true" id="ba1d24a0-90fa-48a5-bda2-0e719d0c5ff9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OneTheme.py" beforeDir="false" afterPath="$PROJECT_DIR$/OneTheme.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/table_docs.py" beforeDir="false" afterPath="$PROJECT_DIR$/table_docs.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,20 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/table_docs_links.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="51" column="19" lean-forward="true" selection-end-line="64" selection-end-column="22" />
-              <folding>
-                <element signature="e#24#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OneTheme.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="189">
+              <caret line="56" column="22" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="22" />
               <folding>
                 <element signature="e#24#38#0" expanded="true" />
               </folding>
@@ -35,22 +27,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OneTheme.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+              <folding>
+                <element signature="e#24#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/table_docs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="156" column="10" selection-start-line="156" selection-start-column="10" selection-end-line="156" selection-end-column="10" />
+            <state relative-caret-position="195">
+              <caret line="143" column="48" selection-start-line="143" selection-start-column="38" selection-end-line="143" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/table_docs.py" />
         <option value="$PROJECT_DIR$/table_docs_links.py" />
         <option value="$PROJECT_DIR$/OneTheme.py" />
-        <option value="$PROJECT_DIR$/table_docs.py" />
       </list>
     </option>
   </component>
@@ -60,6 +67,7 @@
     <option name="width" value="1066" />
     <option name="height" value="598" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -95,7 +103,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.table_docs">
+  <component name="RunManager" selected="Python.OneTheme">
     <configuration name="OneTheme" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Recoding_R" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,8 +169,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.table_docs" />
         <item itemvalue="Python.OneTheme" />
+        <item itemvalue="Python.table_docs" />
         <item itemvalue="Python.table_docs_links" />
       </list>
     </recent_temporary>
@@ -184,12 +192,12 @@
     <frame x="0" y="0" width="1366" height="718" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24981412" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24981412" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32879046" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32879046" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -204,10 +212,17 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/table_docs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="143" column="48" selection-start-line="143" selection-start-column="38" selection-end-line="143" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/table_docs_links.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="51" column="19" lean-forward="true" selection-end-line="64" selection-end-column="22" />
+        <state relative-caret-position="189">
+          <caret line="56" column="22" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="22" />
           <folding>
             <element signature="e#24#38#0" expanded="true" />
           </folding>
@@ -216,18 +231,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OneTheme.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="525">
+          <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
           <folding>
             <element signature="e#24#38#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/table_docs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="156" column="10" selection-start-line="156" selection-start-column="10" selection-end-line="156" selection-end-column="10" />
         </state>
       </provider>
     </entry>
