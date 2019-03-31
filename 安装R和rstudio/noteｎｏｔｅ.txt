@@ -1,0 +1,19 @@
+ ①安装R（可以直接apt呦）
+
+apt-cache search R | grep statis | grep GNU
+apt-get install r-base
+
+
+     ②安装Rstudio
+但是安装GDebi软件后，直接在终端内安装就够了
+
+GDebi安装：
+
+sudo apt-get update
+sudo apt-get install gdebi
+
+sudo gdebi rstudio-1.1.463-amd64.deb
+sudo gdebi rstudio-xenial-1.1.463-amd64.deb
+
+卸载　　rstudio
+sudo apt-get autoremove rstudio
